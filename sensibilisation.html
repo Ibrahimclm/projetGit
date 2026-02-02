@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sensibilisation - Plateforme d'orientation cybersécurité</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<nav class="main-nav">
+		<div class="nav-container">
+			<h2>CyberOrientation</h2>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="se-situer.html">Se situer</a></li>
+				<li><a href="sensibilisation.html" class="active">Sensibilisation</a></li>
+				<li><a href="reglementation.html">Réglementation</a></li>
+				<li><a href="acteurs.html">Acteurs & Outils</a></li>
+				<li><a href="orientation.html">Orientation</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<header class="page-header">
+		<h1>Sensibilisation à la cybersécurité</h1>
+		<p class="subtitle">Contenus adaptés à votre profil dans l'entreprise</p>
+	</header>
+
+	<main>
+		<section class="intro">
+			<p>La cybersécurité concerne toute l'entreprise. Selon votre rôle, vos responsabilités et vos besoins diffèrent.</p>
+			<p>Choisissez votre profil pour accéder aux contenus qui vous correspondent :</p>
+		</section>
+
+		<div class="profile-selector">
+			<a href="#employe" class="profile-card">
+				<h3>👤 Employé</h3>
+				<p>Je suis utilisateur au quotidien des outils de l'entreprise</p>
+			</a>
+			<a href="#it" class="profile-card">
+				<h3>💻 Équipe IT</h3>
+				<p>Je gère l'infrastructure technique et les systèmes</p>
+			</a>
+			<a href="#dirigeant" class="profile-card">
+				<h3>👔 Dirigeant</h3>
+				<p>Je pilote l'entreprise et prends les décisions stratégiques</p>
+			</a>
+		</div>
+
+		<!-- PROFIL EMPLOYÉ -->
+		<section id="employe" class="profile-section">
+			<h2>Sensibilisation pour les employés</h2>
+			
+			<div class="subsection">
+				<h3>Vocabulaire clé à connaître</h3>
+				
+				<div class="glossary">
+					<div class="term">
+						<strong>Risque cyber :</strong>
+						<p>Probabilité qu'un événement nuisible se produise et impacte l'entreprise (exemple : perte de données, arrêt d'activité).</p>
+					</div>
+					
+					<div class="term">
+						<strong>Menace :</strong>
+						<p>Tout ce qui peut causer un dommage : virus, pirate informatique, panne, erreur humaine.</p>
+					</div>
+					
+					<div class="term">
+						<strong>Vulnérabilité :</strong>
+						<p>Faille ou faiblesse dans un système qui peut être exploitée (logiciel non à jour, mot de passe faible, porte non verrouillée).</p>
+					</div>
+					
+					<div class="term">
+						<strong>Phishing (hameçonnage) :</strong>
+						<p>Email frauduleux qui imite une organisation de confiance pour vous inciter à cliquer sur un lien ou donner vos identifiants.</p>
+					</div>
+					
+					<div class="term">
+						<strong>Ransomware (rançongiciel) :</strong>
+						<p>Logiciel malveillant qui chiffre vos fichiers et exige une rançon pour les récupérer.</p>
+					</div>
+					
+					<div class="term">
+						<strong>Authentification à deux facteurs (2FA) :</strong>
+						<p>Méthode de connexion qui demande deux preuves d'identité (mot de passe + code SMS par exemple).</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="subsection">
+				<h3>Menaces actuelles et exemples concrets</h3>
+				
+				<div class="threat-example">
+					<h4>📧 Phishing ciblé (spear phishing)</h4>
+					<p><strong>Exemple :</strong> Vous recevez un email qui semble venir de votre DRH : "Merci de consulter votre bulletin de salaire en pièce jointe". Le fichier contient en réalité un virus qui s'installe sur votre ordinateur.</p>
+					<p><strong>Conséquence :</strong> Vol de vos accès, propagation du virus dans l'entreprise, vol de données.</p>
+				</div>
+				
+				<div class="threat-example">
+					<h4>🔑 Vol d'identifiants</h4>
+					<p><strong>Exemple :</strong> Vous utilisez le même mot de passe pour votre compte personnel et professionnel. Un site externe est piraté et vos identifiants sont publiés. Un attaquant les utilise pour se connecter à vos outils professionnels.</p>
+					<p><strong>Conséquence :</strong> Accès non autorisé aux systèmes de l'entreprise, vol de données clients.</p>
+				</div>
+				
+				<div class="threat-example">
+					<h4>💾 Perte de données</h4>
+					<p><strong>Exemple :</strong> Vous travaillez sur un fichier important stocké uniquement sur votre ordinateur. Votre disque dur tombe en panne, aucune sauvegarde n'existe.</p>
+					<p><strong>Conséquence :</strong> Perte définitive de données critiques, retard dans les projets.</p>
+				</div>
+				
+				<div class="threat-example">
+					<h4>📱 Fuite via appareil personnel</h4>
+					<p><strong>Exemple :</strong> Vous consultez vos emails professionnels depuis votre téléphone personnel. Vous perdez votre téléphone qui n'est pas protégé par un code.</p>
+					<p><strong>Conséquence :</strong> Accès aux emails professionnels, contacts, documents par la personne qui trouve le téléphone.</p>
+				</div>
+			</div>
+			
+			<div class="subsection">
+				<h3>Bonnes pratiques et premières actions</h3>
+				
+				<ul class="best-practices">
+					<li>Utilisez un mot de passe fort et unique pour chaque compte (12 caractères minimum, mélange de lettres, chiffres, symboles)</li>
+					<li>Activez la double authentification (2FA) partout où c'est possible</li>
+					<li>Vérifiez l'expéditeur avant de cliquer sur un lien ou d'ouvrir une pièce jointe</li>
+					<li>Ne partagez jamais vos identifiants, même avec un collègue</li>
+					<li>Verrouillez votre écran dès que vous quittez votre poste</li>
+					<li>Stockez les fichiers professionnels sur les espaces prévus (serveur, cloud d'entreprise), pas sur votre ordinateur uniquement</li>
+					<li>Signalez immédiatement tout comportement suspect à votre service IT</li>
+					<li>Mettez à jour vos logiciels et votre système d'exploitation régulièrement</li>
+				</ul>
+			</div>
+			
+			<div class="subsection actionable">
+				<h3>✅ Checklist de l'employé cyber-responsable</h3>
+				
+				<div class="checklist-box">
+					<label><input type="checkbox"> J'ai changé mes mots de passe faibles ou réutilisés</label>
+					<label><input type="checkbox"> J'utilise un gestionnaire de mots de passe</label>
+					<label><input type="checkbox"> J'ai activé la double authentification sur ma messagerie professionnelle</label>
+					<label><input type="checkbox"> Je vérifie systématiquement l'expéditeur avant de cliquer sur un lien</label>
+					<label><input type="checkbox"> Je verrouille mon écran à chaque absence</label>
+					<label><input type="checkbox"> Je sais comment signaler un incident de sécurité</label>
+					<label><input type="checkbox"> Mes logiciels sont à jour</label>
+					<label><input type="checkbox"> Je ne travaille pas sur des fichiers critiques sans sauvegarde</label>
+				</div>
+			</div>
+		</section>
+
+		<!-- PROFIL ÉQUIPE IT -->
+		<section id="it" class="profile-section">
+			<h2>Sensibilisation pour l'équipe IT</h2>
+			
+			<div class="subsection">
+				<h3>Vocabulaire technique essentiel</h3>
+				
+				<div class="glossary">
+					<div class="term">
+						<strong>Surface d'attaque :</strong>
+						<p>Ensemble des points d'entrée potentiels qu'un attaquant peut exploiter (applications exposées, ports ouverts, comptes utilisateurs, API).</p>
+					</div>
+					
+					<div class="term">
+						<strong>Zero Trust :</strong>
+						<p>Principe de sécurité : ne faire confiance à aucun utilisateur ou système par défaut, même à l'intérieur du réseau. Tout doit être vérifié.</p>
+					</div>
+					
+					<div class="term">
+						<strong>Moindre privilège :</strong>
+						<p>Donner aux utilisateurs uniquement les droits nécessaires à leur fonction, pas plus.</p>
+					</div>
+					
+					<div class="term">
+						<strong>Defense in depth (défense en profondeur) :</strong>
+						<p>Multiplier les couches de sécurité pour qu'une faille unique ne compromette pas tout le système.</p>
+					</div>
+					
+					<div class="term">
+						<strong>SIEM (Security Information and Event Management) :</strong>
+						<p>Système centralisé qui collecte et analyse les logs pour détecter des comportements anormaux.</p>
+					</div>
+					
+					<div class="term">
+						<strong>Patch management :</strong>
+						<p>Processus de maintien à jour des systèmes et logiciels pour corriger les vulnérabilités.</p>
+					</div>
+					
+					<div class="term">
+						<strong>Segmentation réseau :</strong>
+						<p>Division du réseau en zones isolées pour limiter la propagation d'une attaque.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="subsection">
+				<h3>Menaces spécifiques à l'infrastructure IT</h3>
+				
+				<div class="threat-example">
+					<h4>🎯 Attaque par compromission de compte à privilèges</h4>
+					<p><strong>Exemple :</strong> Un compte administrateur est compromis (mot de passe faible, phishing). L'attaquant obtient un accès complet au réseau, déploie un ransomware sur tous les serveurs.</p>
+					<p><strong>Impact :</strong> Paralysie complète du SI, chiffrement de toutes les données, demande de rançon.</p>
+				</div>
+				
+				<div class="threat-example">
+					<h4>⚠️ Exploitation de vulnérabilités non corrigées</h4>
+					<p><strong>Exemple :</strong> Un serveur web utilise une version obsolète d'Apache avec une faille connue. Un attaquant scanne internet, trouve le serveur vulnérable et l'exploite pour installer un backdoor.</p>
+					<p><strong>Impact :</strong> Accès permanent au réseau, vol de données, pivot vers d'autres systèmes.</p>
+				</div>
+				
+				<div class="threat-example">
+					<h4>🔓 Mauvaise configuration cloud</h4>
+					<p><strong>Exemple :</strong> Un bucket S3 sur AWS est mal configuré et accessible publiquement. Toutes les données clients sont exposées sur internet sans le savoir.</p>
+					<p><strong>Impact :</strong> Fuite massive de données, sanctions RGPD, perte de réputation.</p>
+				</div>
+				
+				<div class="threat-example">
+					<h4>🚪 Mouvement latéral après intrusion</h4>
+					<p><strong>Exemple :</strong> Un poste utilisateur est infecté. L'attaquant utilise ce point d'entrée pour explorer le réseau, trouver des serveurs critiques et compromettre toute l'infrastructure.</p>
+					<p><strong>Impact :</strong> Extension de l'attaque à l'ensemble du SI, exfiltration de données sensibles.</p>
+				</div>
+			</div>
+			
+			<div class="subsection">
+				<h3>Bonnes pratiques IT pour sécuriser l'infrastructure</h3>
+				
+				<ul class="best-practices">
+					<li>Appliquer le principe du moindre privilège sur tous les comptes et services</li>
+					<li>Mettre en place une politique de mots de passe forte et imposer le 2FA pour les comptes critiques</li>
+					<li>Maintenir un inventaire à jour des actifs IT (serveurs, applications, endpoints)</li>
+					<li>Établir un processus de patch management rigoureux avec tests et déploiement rapide</li>
+					<li>Segmenter le réseau (séparer production, développement, administration, OT si applicable)</li>
+					<li>Centraliser les logs et mettre en place une supervision (SIEM ou équivalent)</li>
+					<li>Sauvegarder régulièrement les données critiques et tester les restaurations</li>
+					<li>Durcir les configurations (désactiver les services inutiles, fermer les ports non nécessaires)</li>
+					<li>Surveiller les comptes à privilèges et auditer les accès régulièrement</li>
+					<li>Former les utilisateurs et créer des procédures de signalement d'incident</li>
+				</ul>
+			</div>
+			
+			<div class="subsection actionable">
+				<h3>🔧 Fiche réflexe : Réagir face à un incident</h3>
+				
+				<div class="reflex-card">
+					<h4>1. Identifier et contenir</h4>
+					<ul>
+						<li>Confirmer la nature de l'incident (faux positif ou réel ?)</li>
+						<li>Isoler les systèmes compromis du réseau (déconnexion physique ou logique)</li>
+						<li>Ne pas éteindre les machines (perte de preuves en mémoire vive)</li>
+					</ul>
+					
+					<h4>2. Alerter</h4>
+					<ul>
+						<li>Informer la direction et les parties prenantes</li>
+						<li>Contacter le prestataire de sécurité si vous en avez un</li>
+						<li>Signaler à la CNIL si fuite de données personnelles (72h)</li>
+						<li>Déposer plainte si nécessaire</li>
+					</ul>
+					
+					<h4>3. Investiguer</h4>
+					<ul>
+						<li>Préserver les preuves (logs, snapshots, captures mémoire)</li>
+						<li>Identifier le point d'entrée et l'étendue de la compromission</li>
+						<li>Documenter toutes les actions effectuées</li>
+					</ul>
+					
+					<h4>4. Éradiquer et récupérer</h4>
+					<ul>
+						<li>Supprimer les malwares et backdoors identifiés</li>
+						<li>Restaurer les systèmes depuis des sauvegardes saines</li>
+						<li>Réinitialiser tous les mots de passe compromis</li>
+						<li>Corriger la vulnérabilité exploitée</li>
+					</ul>
+					
+					<h4>5. Retour d'expérience</h4>
+					<ul>
+						<li>Analyser les causes profondes de l'incident</li>
+						<li>Mettre à jour les procédures et renforcer les défenses</li>
+						<li>Communiquer les leçons apprises</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- PROFIL DIRIGEANT -->
+		<section id="dirigeant" class="profile-section">
+			<h2>Sensibilisation pour les dirigeants</h2>
+			
+			<div class="subsection">
+				<h3>Comprendre les enjeux cyber au niveau stratégique</h3>
+				
+				<div class="glossary">
+					<div class="term">
+						<strong>Risque cyber comme risque métier :</strong>
+						<p>Le cyber n'est pas qu'un problème technique. C'est un risque opérationnel qui impacte directement la continuité d'activité, la réputation et la performance financière.</p>
+					</div>
+					
+					<div class="term">
+						<strong>Impact financier :</strong>
+						<p>Au-delà de la rançon éventuelle, un incident cyber génère des coûts de remédiation, de communication de crise, d'indemnisation, de perte d'exploitation et de sanctions réglementaires.</p>
+					</div>
+					
+					<div class="term">
+						<strong>Responsabilité du dirigeant :</strong>
+						<p>Le dirigeant peut voir sa responsabilité civile ou pénale engagée en cas de négligence manifeste dans la protection des données ou des systèmes critiques.</p>
+					</div>
+					
+					<div class="term">
+						<strong>Cyberrésilience :</strong>
+						<p>Capacité de l'entreprise à continuer de fonctionner pendant et après un incident cyber, et à se rétablir rapidement.</p>
+					</div>
+					
+					<div class="term">
+						<strong>Due diligence cyber :</strong>
+						<p>Lors d'une acquisition ou d'un partenariat, évaluer la maturité cyber de la cible pour éviter d'hériter de risques cachés.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="subsection">
+				<h3>Menaces et conséquences au niveau entreprise</h3>
+				
+				<div class="threat-example">
+					<h4>💼 Ransomware avec interruption d'activité prolongée</h4>
+					<p><strong>Scénario :</strong> Un ransomware chiffre l'ensemble des serveurs de l'entreprise. Aucune sauvegarde récente n'est exploitable. L'activité est arrêtée pendant 3 semaines.</p>
+					<p><strong>Conséquences :</strong></p>
+					<ul>
+						<li>Perte de chiffre d'affaires (CA quotidien × nombre de jours d'arrêt)</li>
+						<li>Pénalités contractuelles envers les clients</li>
+						<li>Perte de clients qui se tournent vers la concurrence</li>
+						<li>Coûts de reconstruction du SI et d'investigation</li>
+						<li>Atteinte durable à la réputation</li>
+					</ul>
+				</div>
+				
+				<div class="threat-example">
+					<h4>📰 Fuite de données clients avec médiatisation</h4>
+					<p><strong>Scénario :</strong> Les données personnelles de 50 000 clients sont volées et publiées en ligne. L'incident est relayé par la presse.</p>
+					<p><strong>Conséquences :</strong></p>
+					<ul>
+						<li>Sanctions RGPD pouvant atteindre 4% du CA annuel mondial</li>
+						<li>Actions en justice de clients victimes</li>
+						<li>Perte de confiance massive et chute des ventes</li>
+						<li>Coûts de notification, de surveillance du crédit, de communication de crise</li>
+						<li>Départ de partenaires commerciaux inquiets</li>
+					</ul>
+				</div>
+				
+				<div class="threat-example">
+					<h4>🏭 Sabotage de la chaîne de production</h4>
+					<p><strong>Scénario :</strong> Un attaquant modifie les paramètres d'une ligne de production via le système de supervision. Les produits fabriqués sont défectueux.</p>
+					<p><strong>Conséquences :</strong></p>
+					<ul>
+						<li>Rappel de produits défectueux déjà livrés</li>
+						<li>Risque pour la sécurité des utilisateurs finaux</li>
+						<li>Arrêt de production pour investigation et remise en état</li>
+						<li>Perte de confiance des clients et distributeurs</li>
+						<li>Contentieux avec risque de responsabilité pénale</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="subsection">
+				<h3>Actions prioritaires pour le dirigeant</h3>
+				
+				<ul class="best-practices">
+					<li><strong>Reconnaître le cyber comme un risque stratégique :</strong> intégrer la cybersécurité dans la gouvernance (comité de direction, conseil d'administration)</li>
+					<li><strong>Nommer un responsable de la sécurité :</strong> désigner un RSSI ou un responsable IT avec mission cyber claire</li>
+					<li><strong>Allouer un budget réaliste :</strong> la sécurité a un coût, mais bien moindre que celui d'un incident majeur</li>
+					<li><strong>Souscrire une assurance cyber :</strong> pour couvrir les coûts de gestion de crise et de remédiation</li>
+					<li><strong>Imposer la sauvegarde régulière :</strong> tester les restaurations et isoler les sauvegardes du réseau</li>
+					<li><strong>Former et sensibiliser les équipes :</strong> la sécurité est l'affaire de tous</li>
+					<li><strong>Préparer un plan de gestion de crise cyber :</strong> qui fait quoi en cas d'incident ? Qui contacter ?</li>
+					<li><strong>Auditer régulièrement la sécurité :</strong> faire réaliser des tests d'intrusion et des audits par des tiers de confiance</li>
+					<li><strong>Surveiller les obligations réglementaires :</strong> RGPD, NIS2, certifications sectorielles</li>
+					<li><strong>Intégrer le cyber dans les contrats :</strong> prestataires, fournisseurs, sous-traitants doivent respecter des exigences de sécurité</li>
+				</ul>
+			</div>
+			
+			<div class="subsection actionable">
+				<h3>🎯 Mini-scénario : Comment réagiriez-vous ?</h3>
+				
+				<div class="scenario-box">
+					<h4>Situation</h4>
+					<p>Lundi 8h30. Votre responsable IT vous informe qu'un ransomware a été détecté cette nuit. Plusieurs serveurs sont chiffrés, dont celui contenant la comptabilité et les données de production. Un message exige 50 000€ en cryptomonnaie sous 48h.</p>
+					
+					<h4>Questions à vous poser</h4>
+					<ol>
+						<li>Qui sont les personnes à contacter immédiatement ? (IT, avocat, assureur, ANSSI, clients impactés ?)</li>
+						<li>Faut-il payer la rançon ? Quels sont les arguments pour et contre ?</li>
+						<li>Comment communiquer en interne et en externe pour limiter la panique et l'impact réputationnel ?</li>
+						<li>Quelles sont les obligations légales ? (notification CNIL si données personnelles, plainte, déclaration assurance)</li>
+						<li>Comment organiser la continuité d'activité en mode dégradé ?</li>
+					</ol>
+					
+					<h4>Pistes de réflexion</h4>
+					<ul>
+						<li><strong>Ne payez pas immédiatement :</strong> pas de garantie de récupération, financement du crime organisé, risque de nouvelle attaque</li>
+						<li><strong>Contactez les autorités :</strong> ANSSI, police/gendarmerie, CERT-FR. Ils peuvent aider et ont parfois des clés de déchiffrement</li>
+						<li><strong>Activez votre assurance cyber :</strong> elle peut prendre en charge les coûts de gestion de crise</li>
+						<li><strong>Vérifiez vos sauvegardes :</strong> si elles sont saines et isolées, vous n'avez pas besoin de payer</li>
+						<li><strong>Communiquez de manière transparente :</strong> vis-à-vis des clients, partenaires et autorités. Une communication maîtrisée limite l'impact réputationnel</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="cta">
+			<h2>Prochaine étape</h2>
+			<p>Maintenant que vous comprenez les enjeux, découvrez vos obligations réglementaires</p>
+			<a href="reglementation.html" class="btn btn-primary">Connaître mes obligations</a>
+		</section>
+	</main>
+
+	<footer>
+		<p>Plateforme d'orientation cybersécurité - Guide pédagogique pour entreprises débutantes</p>
+		<p>Contenus basés sur les recommandations de l'ANSSI, du CERT-FR et de la CNIL</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Se situer - Plateforme d'orientation cybersécurité</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<nav class="main-nav">
+		<div class="nav-container">
+			<h2>CyberOrientation</h2>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="se-situer.html" class="active">Se situer</a></li>
+				<li><a href="sensibilisation.html">Sensibilisation</a></li>
+				<li><a href="reglementation.html">Réglementation</a></li>
+				<li><a href="acteurs.html">Acteurs & Outils</a></li>
+				<li><a href="orientation.html">Orientation</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<header class="page-header">
+		<h1>Comprendre votre contexte</h1>
+		<p class="subtitle">Identifiez les enjeux cyber spécifiques à votre secteur d'activité</p>
+	</header>
+
+	<main>
+		<section class="intro">
+			<p>Chaque secteur d'activité présente des particularités en matière de cybersécurité. Les actifs critiques, les menaces dominantes et les conséquences d'un incident varient selon votre métier.</p>
+			<p>Parcourez les contextes ci-dessous pour identifier celui qui correspond le mieux à votre entreprise.</p>
+		</section>
+
+		<section class="context-section">
+			<div class="context-card">
+				<h2>E-commerce / Vente en ligne</h2>
+				
+				<div class="subsection">
+					<h3>Actifs critiques</h3>
+					<ul>
+						<li>Plateforme de vente en ligne (site web, application mobile)</li>
+						<li>Base de données clients (coordonnées, historique d'achats)</li>
+						<li>Données de paiement (cartes bancaires, coordonnées bancaires)</li>
+						<li>Système de gestion des stocks et commandes</li>
+						<li>Comptes administrateurs et accès au back-office</li>
+					</ul>
+				</div>
+				
+				<div class="subsection">
+					<h3>Menaces dominantes</h3>
+					<ul>
+						<li><strong>Vol de données de paiement :</strong> attaque de la plateforme pour récupérer les coordonnées bancaires des clients</li>
+						<li><strong>Défiguration du site (defacement) :</strong> modification de la page d'accueil pour nuire à l'image de marque</li>
+						<li><strong>Attaques par déni de service (DDoS) :</strong> saturation du site pour le rendre inaccessible, notamment pendant les périodes de forte activité</li>
+						<li><strong>Fraude au paiement :</strong> utilisation frauduleuse de moyens de paiement volés</li>
+						<li><strong>Phishing ciblant les clients :</strong> emails frauduleux se faisant passer pour votre entreprise</li>
+					</ul>
+				</div>
+				
+				<div class="subsection">
+					<h3>Conséquences prévisibles</h3>
+					<ul>
+						<li>Perte de confiance des clients et de la réputation</li>
+						<li>Sanctions financières (RGPD, PCI-DSS)</li>
+						<li>Interruption de l'activité commerciale et perte de chiffre d'affaires</li>
+						<li>Coûts de remédiation et indemnisation des victimes</li>
+						<li>Contentieux avec les clients et partenaires bancaires</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="context-card">
+				<h2>Industrie / Environnement OT</h2>
+				
+				<div class="subsection">
+					<h3>Actifs critiques</h3>
+					<ul>
+						<li><strong>Systèmes IT :</strong> ERP, gestion de production, emails, données de conception</li>
+						<li><strong>Systèmes OT :</strong> automates (PLC), SCADA, supervision d'usine, capteurs IoT</li>
+						<li>Chaînes de production et machines-outils connectées</li>
+						<li>Plans de fabrication et propriété intellectuelle</li>
+						<li>Accès distants pour la maintenance (fournisseurs, sous-traitants)</li>
+					</ul>
+				</div>
+				
+				<div class="subsection">
+					<h3>Menaces dominantes</h3>
+					<ul>
+						<li><strong>Ransomware ciblant l'IT et l'OT :</strong> chiffrement des systèmes bloquant la production</li>
+						<li><strong>Sabotage des systèmes industriels :</strong> modification des paramètres de production causant des défauts ou des accidents</li>
+						<li><strong>Espionnage industriel :</strong> vol de plans, de données de R&D ou de savoir-faire</li>
+						<li><strong>Compromission via la chaîne d'approvisionnement :</strong> attaque par un prestataire de maintenance ou un fournisseur</li>
+						<li><strong>Attaque sur des systèmes obsolètes :</strong> exploitation de machines anciennes non patchables</li>
+					</ul>
+				</div>
+				
+				<div class="subsection">
+					<h3>Conséquences prévisibles</h3>
+					<ul>
+						<li>Arrêt de la production et pertes financières majeures</li>
+						<li>Risques pour la sécurité des personnes et l'environnement</li>
+						<li>Dégradation ou destruction de machines coûteuses</li>
+						<li>Perte de compétitivité par vol de propriété intellectuelle</li>
+						<li>Non-respect de délais clients et pénalités contractuelles</li>
+					</ul>
+				</div>
+				
+				<div class="subsection distinction">
+					<h3>Distinction IT / OT</h3>
+					<p><strong>IT (Information Technology) :</strong> systèmes informatiques classiques (bureautique, serveurs, emails). Priorité : confidentialité et intégrité des données.</p>
+					<p><strong>OT (Operational Technology) :</strong> systèmes de contrôle industriel et de supervision. Priorité : disponibilité et sécurité des processus physiques.</p>
+					<p class="warning">⚠️ Un incident sur l'IT peut se propager à l'OT si les réseaux ne sont pas correctement segmentés.</p>
+				</div>
+			</div>
+
+			<div class="context-card">
+				<h2>Collectivité territoriale</h2>
+				
+				<div class="subsection">
+					<h3>Actifs critiques</h3>
+					<ul>
+						<li>Services en ligne aux citoyens (état civil, inscriptions, paiements)</li>
+						<li>Données personnelles des administrés (bases électorales, données sociales)</li>
+						<li>Systèmes de gestion internes (RH, comptabilité, délibérations)</li>
+						<li>Infrastructures urbaines connectées (vidéosurveillance, éclairage public, capteurs)</li>
+						<li>Systèmes de communication et d'alerte (situations d'urgence)</li>
+					</ul>
+				</div>
+				
+				<div class="subsection">
+					<h3>Menaces dominantes</h3>
+					<ul>
+						<li><strong>Ransomware :</strong> chiffrement des serveurs et systèmes bloquant les services publics</li>
+						<li><strong>Fuite de données personnelles :</strong> exposition de données sensibles des citoyens</li>
+						<li><strong>Attaques contre les services en ligne :</strong> indisponibilité de services essentiels (état civil, paiements)</li>
+						<li><strong>Compromission de comptes d'agents :</strong> utilisation frauduleuse d'accès internes</li>
+						<li><strong>Attaques ciblées en période électorale :</strong> perturbation ou manipulation</li>
+					</ul>
+				</div>
+				
+				<div class="subsection">
+					<h3>Conséquences prévisibles</h3>
+					<ul>
+						<li>Interruption des services publics essentiels</li>
+						<li>Perte de confiance des citoyens dans l'administration</li>
+						<li>Sanctions RGPD et contentieux avec les administrés</li>
+						<li>Coûts de remédiation souvent lourds pour des budgets contraints</li>
+						<li>Impact sur les élections ou la gestion de crise</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="context-card">
+				<h2>Santé (établissements de soins)</h2>
+				
+				<div class="subsection">
+					<h3>Actifs critiques</h3>
+					<ul>
+						<li>Dossiers patients et données médicales (DMP, imagerie médicale)</li>
+						<li>Systèmes d'information hospitaliers (SIH, logiciels métier)</li>
+						<li>Équipements médicaux connectés (pompes à perfusion, IRM, respirateurs)</li>
+						<li>Systèmes de rendez-vous et de facturation</li>
+						<li>Laboratoires d'analyses et leur système d'information</li>
+					</ul>
+				</div>
+				
+				<div class="subsection">
+					<h3>Menaces dominantes</h3>
+					<ul>
+						<li><strong>Ransomware ciblant les hôpitaux :</strong> blocage des systèmes, impossibilité d'accéder aux dossiers patients</li>
+						<li><strong>Vol de données de santé :</strong> exploitation ou revente de données médicales sensibles</li>
+						<li><strong>Attaques contre les équipements médicaux :</strong> risque vital en cas de dysfonctionnement</li>
+						<li><strong>Espionnage et extorsion :</strong> menace de divulgation de données sensibles</li>
+						<li><strong>Interruption de la prise en charge :</strong> impossibilité de consulter l'historique médical en urgence</li>
+					</ul>
+				</div>
+				
+				<div class="subsection">
+					<h3>Conséquences prévisibles</h3>
+					<ul>
+						<li>Risques vitaux pour les patients (report d'opérations, erreurs médicales)</li>
+						<li>Pertes financières majeures et coûts de remédiation</li>
+						<li>Atteinte grave à la réputation et à la confiance des patients</li>
+						<li>Sanctions lourdes (RGPD, hébergement données de santé)</li>
+						<li>Responsabilité pénale en cas de préjudice aux patients</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="context-card">
+				<h2>SaaS / IT / Services numériques</h2>
+				
+				<div class="subsection">
+					<h3>Actifs critiques</h3>
+					<ul>
+						<li>Plateforme applicative (code source, APIs, bases de données)</li>
+						<li>Données clients hébergées (souvent multi-tenants)</li>
+						<li>Infrastructure cloud (AWS, Azure, GCP) et configurations</li>
+						<li>Systèmes d'authentification et gestion des identités</li>
+						<li>Propriété intellectuelle et secrets de fonctionnement</li>
+					</ul>
+				</div>
+				
+				<div class="subsection">
+					<h3>Menaces dominantes</h3>
+					<ul>
+						<li><strong>Faille de sécurité applicative :</strong> injection SQL, XSS, vulnérabilités du code</li>
+						<li><strong>Compromission de compte admin :</strong> accès non autorisé aux données de tous les clients</li>
+						<li><strong>Attaque sur la chaîne d'approvisionnement logicielle :</strong> compromission via une bibliothèque tierce</li>
+						<li><strong>Mauvaise configuration cloud :</strong> exposition accidentelle de données</li>
+						<li><strong>Attaque DDoS :</strong> indisponibilité du service impactant tous les clients</li>
+					</ul>
+				</div>
+				
+				<div class="subsection">
+					<h3>Conséquences prévisibles</h3>
+					<ul>
+						<li>Perte massive de clients en cas de fuite de données</li>
+						<li>Sanctions réglementaires et class actions</li>
+						<li>Interruption de service impactant la facturation</li>
+						<li>Atteinte durable à la réputation et au business</li>
+						<li>Risque de faillite pour les startups sans assurance cyber</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="cta">
+			<h2>Vous avez identifié votre contexte ?</h2>
+			<p>Passez maintenant à la sensibilisation pour comprendre les bases de la cybersécurité</p>
+			<a href="sensibilisation.html" class="btn btn-primary">Accéder à la sensibilisation</a>
+		</section>
+	</main>
+
+	<footer>
+		<p>Plateforme d'orientation cybersécurité - Guide pédagogique pour entreprises débutantes</p>
+		<p>Contenus basés sur les recommandations de l'ANSSI, du CERT-FR et de la CNIL</p>
+	</footer>
+</body>
+</html>

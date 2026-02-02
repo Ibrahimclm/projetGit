@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Acteurs et Outils - Plateforme d'orientation cybersécurité</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<nav class="main-nav">
+		<div class="nav-container">
+			<h2>CyberOrientation</h2>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="se-situer.html">Se situer</a></li>
+				<li><a href="sensibilisation.html">Sensibilisation</a></li>
+				<li><a href="reglementation.html">Réglementation</a></li>
+				<li><a href="acteurs.html" class="active">Acteurs & Outils</a></li>
+				<li><a href="orientation.html">Orientation</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<header class="page-header">
+		<h1>Acteurs, prestataires et outils</h1>
+		<p class="subtitle">Vers qui se tourner et quelles solutions privilégier</p>
+	</header>
+
+	<main>
+		<section class="intro">
+			<p>Face à un besoin cyber, il est souvent difficile de savoir vers qui se tourner. Cette section vous présente les acteurs publics, les types de prestataires et les grandes catégories d'outils pour vous aider à vous orienter.</p>
+		</section>
+
+		<!-- ACTEURS ÉTATIQUES -->
+		<section class="actors-section">
+			<h2>Acteurs étatiques et institutionnels</h2>
+			<p>Les acteurs publics jouent un rôle central dans l'accompagnement et la prévention. Ils offrent des ressources gratuites, des alertes et des services de premier niveau.</p>
+
+			<div class="actor-card">
+				<h3>ANSSI - Agence Nationale de la Sécurité des Systèmes d'Information</h3>
+				<div class="actor-content">
+					<p><strong>Mission :</strong> Autorité nationale en matière de cybersécurité, l'ANSSI conseille, accompagne et protège les administrations et les entreprises.</p>
+					<p><strong>Quand les solliciter :</strong></p>
+					<ul>
+						<li>Pour obtenir des guides et bonnes pratiques (disponibles gratuitement sur ssi.gouv.fr)</li>
+						<li>En cas d'incident majeur touchant une infrastructure critique ou sensible</li>
+						<li>Pour faire certifier ou qualifier des prestataires et produits de sécurité</li>
+						<li>Pour les entreprises soumises à NIS 2 ou opérateurs d'importance vitale (OIV)</li>
+					</ul>
+					<p><strong>Site web :</strong> <a href="https://www.ssi.gouv.fr" target="_blank">www.ssi.gouv.fr</a></p>
+				</div>
+			</div>
+
+			<div class="actor-card">
+				<h3>CERT-FR - Centre gouvernemental de veille, d'alerte et de réponse aux attaques informatiques</h3>
+				<div class="actor-content">
+					<p><strong>Mission :</strong> Le CERT-FR est le centre opérationnel de l'ANSSI. Il détecte les cybermenaces, émet des alertes et accompagne la réponse aux incidents.</p>
+					<p><strong>Quand les solliciter :</strong></p>
+					<ul>
+						<li>Pour recevoir des alertes de sécurité et bulletins de vulnérabilités (inscription gratuite)</li>
+						<li>Pour signaler un incident de sécurité majeur affectant votre entreprise</li>
+						<li>Pour obtenir des recommandations techniques en cas d'attaque</li>
+						<li>Pour consulter la base de connaissances des menaces actuelles</li>
+					</ul>
+					<p><strong>Site web :</strong> <a href="https://www.cert.ssi.gouv.fr" target="_blank">www.cert.ssi.gouv.fr</a></p>
+				</div>
+			</div>
+
+			<div class="actor-card">
+				<h3>Cybermalveillance.gouv.fr</h3>
+				<div class="actor-content">
+					<p><strong>Mission :</strong> Plateforme nationale d'assistance aux victimes de cybermalveillance (particuliers, entreprises, collectivités). Sensibilisation et mise en relation avec des prestataires de confiance.</p>
+					<p><strong>Quand les solliciter :</strong></p>
+					<ul>
+						<li>En cas d'incident cyber (ransomware, phishing, piratage de compte, etc.)</li>
+						<li>Pour obtenir un diagnostic gratuit et être orienté vers les bonnes ressources</li>
+						<li>Pour accéder à des kits de sensibilisation et des fiches réflexes</li>
+						<li>Pour trouver un prestataire de proximité labellisé "ExpertCyber"</li>
+					</ul>
+					<p><strong>Site web :</strong> <a href="https://www.cybermalveillance.gouv.fr" target="_blank">www.cybermalveillance.gouv.fr</a></p>
+				</div>
+			</div>
+
+			<div class="actor-card">
+				<h3>CNIL - Commission Nationale de l'Informatique et des Libertés</h3>
+				<div class="actor-content">
+					<p><strong>Mission :</strong> Autorité administrative indépendante chargée de veiller au respect de la vie privée et des données personnelles (application du RGPD).</p>
+					<p><strong>Quand les solliciter :</strong></p>
+					<ul>
+						<li>Pour comprendre vos obligations RGPD et accéder à des modèles de documents</li>
+						<li>Pour notifier une violation de données personnelles (obligatoire sous 72h)</li>
+						<li>Pour obtenir des conseils sur la conformité de vos traitements</li>
+						<li>En cas de litige avec un sous-traitant sur la protection des données</li>
+					</ul>
+					<p><strong>Site web :</strong> <a href="https://www.cnil.fr" target="_blank">www.cnil.fr</a></p>
+				</div>
+			</div>
+
+			<div class="actor-card">
+				<h3>Gendarmerie / Police nationale (C3N, BEFTI)</h3>
+				<div class="actor-content">
+					<p><strong>Mission :</strong> Lutte contre la cybercriminalité, enquêtes judiciaires, recueil de plaintes et sensibilisation.</p>
+					<p><strong>Quand les solliciter :</strong></p>
+					<ul>
+						<li>Pour déposer plainte en cas d'escroquerie, extorsion, usurpation d'identité</li>
+						<li>En cas de cyberattaque avérée avec préjudice financier ou opérationnel</li>
+						<li>Pour signaler un contenu illicite ou une menace en ligne</li>
+						<li>Pour demander conseil avant de payer une rançon (fortement déconseillé)</li>
+					</ul>
+					<p><strong>Contacts :</strong> Plateforme PHAROS, brigades territoriales, commissariats</p>
+				</div>
+			</div>
+
+			<div class="actor-card">
+				<h3>BPI France Cybersécurité</h3>
+				<div class="actor-content">
+					<p><strong>Mission :</strong> Financer et accompagner les PME/ETI dans leur transformation numérique et leur montée en maturité cyber.</p>
+					<p><strong>Quand les solliciter :</strong></p>
+					<ul>
+						<li>Pour obtenir des aides financières (diagnostics, audits, formations)</li>
+						<li>Pour financer un projet de mise en conformité ou de sécurisation</li>
+						<li>Pour accéder à des programmes d'accompagnement cyber pour les PME</li>
+						<li>Pour bénéficier de prêts ou garanties liés à la cybersécurité</li>
+					</ul>
+					<p><strong>Site web :</strong> <a href="https://www.bpifrance.fr" target="_blank">www.bpifrance.fr</a></p>
+				</div>
+			</div>
+		</section>
+
+		<!-- PRESTATAIRES -->
+		<section class="providers-section">
+			<h2>Types de prestataires cyber</h2>
+			<p>Selon vos besoins, différents types de prestataires peuvent vous accompagner. Voici les principales catégories et leurs cas d'usage.</p>
+
+			<div class="provider-card">
+				<h3>MSSP / SOC (Security Operations Center)</h3>
+				<div class="provider-content">
+					<p><strong>Ce qu'ils font :</strong> Surveillance continue de votre système d'information, détection d'incidents, réponse de premier niveau. Le SOC peut être internalisé ou externalisé (MSSP).</p>
+					<p><strong>Dans quels cas y recourir :</strong></p>
+					<ul>
+						<li>Vous n'avez pas les ressources internes pour surveiller 24/7</li>
+						<li>Vous souhaitez détecter rapidement les incidents et limiter leur impact</li>
+						<li>Vous êtes soumis à des obligations de surveillance (NIS 2, secteurs critiques)</li>
+						<li>Vous avez besoin d'une expertise pour analyser les logs et alertes de sécurité</li>
+					</ul>
+					<p><strong>Exemples de prestataires :</strong> Orange Cyberdefense, Wavestone, Thales, Capgemini</p>
+				</div>
+			</div>
+
+			<div class="provider-card">
+				<h3>Réponse à incident / CERT privé</h3>
+				<div class="provider-content">
+					<p><strong>Ce qu'ils font :</strong> Intervention d'urgence en cas de cyberattaque. Investigation forensique, éradication de la menace, restauration des systèmes, accompagnement juridique.</p>
+					<p><strong>Dans quels cas y recourir :</strong></p>
+					<ul>
+						<li>Vous êtes victime d'un ransomware, d'une intrusion ou d'une fuite de données</li>
+						<li>Vous devez analyser l'origine et l'étendue de l'attaque</li>
+						<li>Vous avez besoin d'aide pour restaurer vos systèmes et données</li>
+						<li>Vous devez produire des preuves pour une enquête judiciaire</li>
+					</ul>
+					<p><strong>Exemples de prestataires :</strong> CERT-XMCO, Intrinsec, Sysdream, Gatewatcher</p>
+				</div>
+			</div>
+
+			<div class="provider-card">
+				<h3>Audit et tests d'intrusion (Pentest)</h3>
+				<div class="provider-content">
+					<p><strong>Ce qu'ils font :</strong> Évaluation de la sécurité de votre infrastructure, applications, ou organisation. Tests d'intrusion pour identifier les vulnérabilités exploitables.</p>
+					<p><strong>Dans quels cas y recourir :</strong></p>
+					<ul>
+						<li>Vous lancez une nouvelle application ou infrastructure et souhaitez la sécuriser</li>
+						<li>Vous devez respecter une obligation réglementaire ou contractuelle (ISO 27001, NIS 2, PCI-DSS)</li>
+						<li>Vous souhaitez mesurer votre niveau de sécurité et identifier les priorités</li>
+						<li>Vous avez subi un incident et voulez éviter qu'il se reproduise</li>
+					</ul>
+					<p><strong>Exemples de prestataires :</strong> Vaadata, Hackuity, Synacktiv, Devoteam Revolve</p>
+				</div>
+			</div>
+
+			<div class="provider-card">
+				<h3>Conseil en cybersécurité / RSSI externe</h3>
+				<div class="provider-content">
+					<p><strong>Ce qu'ils font :</strong> Accompagnement stratégique, définition de feuilles de route cyber, aide à la mise en conformité, pilotage de projets de sécurité.</p>
+					<p><strong>Dans quels cas y recourir :</strong></p>
+					<ul>
+						<li>Vous n'avez pas de RSSI en interne et avez besoin d'un pilotage cyber</li>
+						<li>Vous devez structurer une démarche de sécurité cohérente</li>
+						<li>Vous préparez une certification (ISO 27001, HDS) ou une mise en conformité (NIS 2, RGPD)</li>
+						<li>Vous avez besoin d'un regard externe pour évaluer votre maturité</li>
+					</ul>
+					<p><strong>Exemples de prestataires :</strong> PwC, EY, Deloitte, KPMG, Advens</p>
+				</div>
+			</div>
+
+			<div class="provider-card">
+				<h3>Sensibilisation et formation</h3>
+				<div class="provider-content">
+					<p><strong>Ce qu'ils font :</strong> Formation des collaborateurs aux bonnes pratiques cyber, campagnes de phishing simulé, sensibilisation des dirigeants.</p>
+					<p><strong>Dans quels cas y recourir :</strong></p>
+					<ul>
+						<li>Vous constatez que vos employés sont peu sensibilisés aux risques cyber</li>
+						<li>Vous souhaitez réduire le risque d'erreur humaine (clic sur phishing, mots de passe faibles)</li>
+						<li>Vous devez respecter une obligation de formation (NIS 2, ISO 27001)</li>
+						<li>Vous voulez mesurer le niveau de vigilance de vos équipes</li>
+					</ul>
+					<p><strong>Exemples de prestataires :</strong> Riot, Conscio Technologies, Phished, KnowBe4</p>
+				</div>
+			</div>
+
+			<div class="provider-card">
+				<h3>Intégrateurs et infogérants</h3>
+				<div class="provider-content">
+					<p><strong>Ce qu'ils font :</strong> Déploiement, configuration et maintenance des solutions de sécurité. Gestion de l'infrastructure IT avec une composante sécurité.</p>
+					<p><strong>Dans quels cas y recourir :</strong></p>
+					<ul>
+						<li>Vous avez choisi des outils de sécurité et avez besoin d'aide pour les déployer</li>
+						<li>Vous souhaitez externaliser la gestion de votre infrastructure IT de manière sécurisée</li>
+						<li>Vous avez besoin d'un support technique pour maintenir vos solutions</li>
+						<li>Vous voulez migrer vers le cloud en garantissant un niveau de sécurité adapté</li>
+					</ul>
+					<p><strong>Exemples de prestataires :</strong> Atos, IBM, CGI, Sopra Steria</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- OUTILS -->
+		<section class="tools-section">
+			<h2>Catégories d'outils de cybersécurité</h2>
+			<p>Voici les grandes familles d'outils que vous pouvez envisager selon vos besoins. Cette liste est indicative et non exhaustive.</p>
+
+			<div class="tool-category">
+				<h3>EDR / XDR - Endpoint Detection and Response</h3>
+				<div class="tool-content">
+					<p><strong>À quoi ça sert :</strong> Protection avancée des postes de travail (ordinateurs, serveurs, mobiles). Détection des comportements anormaux, réponse automatique aux menaces.</p>
+					<p><strong>Pourquoi c'est important :</strong> Les antivirus classiques ne suffisent plus face aux menaces modernes. L'EDR offre une visibilité et une capacité de réaction supérieures.</p>
+					<p><strong>Exemples d'éditeurs :</strong></p>
+					<ul>
+						<li>CrowdStrike Falcon</li>
+						<li>Microsoft Defender for Endpoint</li>
+						<li>SentinelOne</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="tool-category">
+				<h3>IAM - Identity and Access Management</h3>
+				<div class="tool-content">
+					<p><strong>À quoi ça sert :</strong> Gestion centralisée des identités et des accès. Authentification forte (MFA), single sign-on (SSO), gestion des droits et des privilèges.</p>
+					<p><strong>Pourquoi c'est important :</strong> Les comptes compromis sont la principale cause d'intrusion. Une gestion rigoureuse des identités limite drastiquement les risques.</p>
+					<p><strong>Exemples d'éditeurs :</strong></p>
+					<ul>
+						<li>Okta</li>
+						<li>Azure Active Directory (Microsoft Entra ID)</li>
+						<li>Ping Identity</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="tool-category">
+				<h3>Sauvegarde et continuité d'activité</h3>
+				<div class="tool-content">
+					<p><strong>À quoi ça sert :</strong> Sauvegarde régulière des données critiques, restauration rapide en cas de panne ou d'attaque. Plan de reprise d'activité (PRA) et plan de continuité d'activité (PCA).</p>
+					<p><strong>Pourquoi c'est important :</strong> Face à un ransomware ou une panne, la sauvegarde est votre dernier rempart. Sans elle, vous êtes contraint de payer la rançon ou de perdre vos données.</p>
+					<p><strong>Exemples d'éditeurs :</strong></p>
+					<ul>
+						<li>Veeam</li>
+						<li>Rubrik</li>
+						<li>Acronis</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="tool-category">
+				<h3>CTI - Cyber Threat Intelligence</h3>
+				<div class="tool-content">
+					<p><strong>À quoi ça sert :</strong> Collecte et analyse d'informations sur les menaces actuelles (groupes d'attaquants, nouvelles techniques, indicateurs de compromission). Anticipation des risques.</p>
+					<p><strong>Pourquoi c'est important :</strong> Connaître les menaces qui visent votre secteur permet d'adapter vos défenses et de détecter plus rapidement les attaques.</p>
+					<p><strong>Exemples d'éditeurs :</strong></p>
+					<ul>
+						<li>Recorded Future</li>
+						<li>Mandiant (Google)</li>
+						<li>CrowdStrike Falcon Intelligence</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="tool-category">
+				<h3>Scan de vulnérabilités</h3>
+				<div class="tool-content">
+					<p><strong>À quoi ça sert :</strong> Analyse automatique de votre infrastructure pour identifier les failles de sécurité (logiciels obsolètes, configurations faibles, ports ouverts).</p>
+					<p><strong>Pourquoi c'est important :</strong> Vous ne pouvez pas corriger ce que vous ne connaissez pas. Le scan de vulnérabilités vous donne une cartographie de vos faiblesses.</p>
+					<p><strong>Exemples d'éditeurs :</strong></p>
+					<ul>
+						<li>Qualys</li>
+						<li>Tenable Nessus</li>
+						<li>Rapid7 InsightVM</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="tool-category">
+				<h3>Firewall / NGFW - Next Generation Firewall</h3>
+				<div class="tool-content">
+					<p><strong>À quoi ça sert :</strong> Contrôle et filtrage du trafic réseau entrant et sortant. Blocage des connexions suspectes, protection contre les intrusions (IPS).</p>
+					<p><strong>Pourquoi c'est important :</strong> Le firewall est la première ligne de défense de votre réseau. Il empêche les attaquants d'accéder directement à vos systèmes.</p>
+					<p><strong>Exemples d'éditeurs :</strong></p>
+					<ul>
+						<li>Palo Alto Networks</li>
+						<li>Fortinet FortiGate</li>
+						<li>Cisco Firepower</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="tool-category">
+				<h3>SIEM - Security Information and Event Management</h3>
+				<div class="tool-content">
+					<p><strong>À quoi ça sert :</strong> Centralisation et corrélation des logs de sécurité provenant de l'ensemble de votre SI. Détection d'anomalies et alertes en temps réel.</p>
+					<p><strong>Pourquoi c'est important :</strong> Un SIEM permet de détecter des attaques complexes qui passent inaperçues lorsqu'on regarde chaque équipement isolément.</p>
+					<p><strong>Exemples d'éditeurs :</strong></p>
+					<ul>
+						<li>Splunk</li>
+						<li>IBM QRadar</li>
+						<li>Microsoft Sentinel</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="tool-category">
+				<h3>Email Security Gateway</h3>
+				<div class="tool-content">
+					<p><strong>À quoi ça sert :</strong> Protection avancée de la messagerie. Filtrage du spam, détection de phishing, analyse des pièces jointes malveillantes, protection contre l'usurpation d'identité.</p>
+					<p><strong>Pourquoi c'est important :</strong> L'email reste le vecteur d'attaque numéro un. Une protection robuste limite drastiquement les risques d'infection et de compromission.</p>
+					<p><strong>Exemples d'éditeurs :</strong></p>
+					<ul>
+						<li>Proofpoint</li>
+						<li>Mimecast</li>
+						<li>Barracuda</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="cta">
+			<h2>Dernière étape</h2>
+			<p>Vous connaissez maintenant les acteurs et les outils. Découvrez comment vous orienter selon votre situation.</p>
+			<a href="orientation.html" class="btn btn-primary">Comprendre la logique d'orientation</a>
+		</section>
+	</main>
+
+	<footer>
+		<p>Plateforme d'orientation cybersécurité - Guide pédagogique pour entreprises débutantes</p>
+		<p>Contenus basés sur les recommandations de l'ANSSI, du CERT-FR et de la CNIL</p>
+	</footer>
+</body>
+</html>
