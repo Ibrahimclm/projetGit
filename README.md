@@ -7,6 +7,7 @@ Ce dépôt contient le CV professionnel d'Ibrahim SY, conçu pour un poste de **
 ## Fichiers
 
 - `CV-Ibrahim-SY-Cybersecurity-GRC.html` - CV au format HTML, optimisé pour l'affichage web et l'impression
+- `GUIDE-PERSONNALISATION.md` - Guide complet de personnalisation du CV (en français)
 
 ## Visualisation
 
@@ -52,8 +53,13 @@ Le CV comprend les sections suivantes :
 
 ## Personnalisation
 
-Pour personnaliser le CV :
+Pour personnaliser le CV, consultez le **[Guide de Personnalisation](GUIDE-PERSONNALISATION.md)** qui contient :
+- Instructions détaillées pour modifier chaque section
+- Conseils pour postuler chez Orange Cyberdefense
+- Méthodes de génération PDF
+- Ressources utiles pour la préparation à l'entretien
 
+**Résumé rapide :**
 1. Ouvrez le fichier HTML dans un éditeur de texte
 2. Modifiez les informations de contact dans la section `<div class="header">`
 3. Ajustez le contenu des différentes sections selon vos besoins
