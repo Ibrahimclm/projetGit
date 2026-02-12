@@ -2,6 +2,30 @@
 
 Ce projet génère un CV professionnel en format PDF pour un consultant en cybersécurité.
 
+## 📄 CV Prêt à Télécharger
+
+**Le CV est déjà généré et disponible dans ce repository !**
+
+👉 **[Télécharger CV_Ibrahim_Sy.pdf](./CV_Ibrahim_Sy.pdf)** 👈
+
+- **Fichier** : `CV_Ibrahim_Sy.pdf`
+- **Taille** : 22 KB
+- **Format** : PDF, 2 pages (A4)
+- **Statut** : ✅ Prêt à envoyer aux recruteurs
+
+### Aperçu du CV
+
+<details>
+<summary>📋 Cliquez pour voir l'aperçu des pages</summary>
+
+**Page 1 :**
+![CV Page 1](./cv_preview-1.png)
+
+**Page 2 :**
+![CV Page 2](./cv_preview-2.png)
+
+</details>
+
 ## Caractéristiques
 
 - **Design sobre et moderne** : Adapté aux cabinets de conseil en cybersécurité
@@ -31,12 +55,24 @@ pip install -r requirements.txt
 
 ## Utilisation
 
-Générer le CV en PDF :
+### Option 1 : Télécharger le CV déjà généré (Recommandé)
+
+Le CV est **déjà disponible** dans ce repository : **[CV_Ibrahim_Sy.pdf](./CV_Ibrahim_Sy.pdf)**
+
+Vous pouvez :
+- Le télécharger directement depuis GitHub
+- Le cloner avec le repository
+- Cliquer sur le fichier dans l'interface GitHub et cliquer "Download"
+
+### Option 2 : Regénérer le CV (Optionnel)
+
+Si vous souhaitez modifier et regénérer le CV :
+
 ```bash
 python generate_cv.py
 ```
 
-Le fichier `CV_Ibrahim_Sy.pdf` sera créé dans le répertoire courant.
+Le fichier `CV_Ibrahim_Sy.pdf` sera recréé dans le répertoire courant.
 
 ## Structure du CV
 
