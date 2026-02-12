@@ -8,6 +8,8 @@ Ce projet génère un CV professionnel en format PDF pour un consultant en cyber
 
 👉 **[Télécharger CV_Ibrahim_Sy.pdf](./CV_Ibrahim_Sy.pdf)** 👈
 
+> 💡 **Besoin d'aide pour télécharger ?** Consultez [TELECHARGEMENT.md](./TELECHARGEMENT.md)
+
 - **Fichier** : `CV_Ibrahim_Sy.pdf`
 - **Taille** : 22 KB
 - **Format** : PDF, 2 pages (A4)
