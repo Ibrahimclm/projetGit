@@ -6,23 +6,33 @@ Ce dépôt contient le CV professionnel d'Ibrahim SY, conçu pour un poste de **
 
 ## Fichiers
 
+- **`CV-Ibrahim-SY-Cybersecurity-GRC.pdf`** ⭐ - **CV au format PDF prêt à l'emploi** (recommandé pour candidatures)
 - `CV-Ibrahim-SY-Cybersecurity-GRC.html` - CV au format HTML, optimisé pour l'affichage web et l'impression
 - `GUIDE-PERSONNALISATION.md` - Guide complet de personnalisation du CV (en français)
 
 ## Visualisation
 
-### Option 1: Ouvrir directement dans un navigateur
+### 📄 PDF Prêt à l'Emploi
+
+Le fichier **`CV-Ibrahim-SY-Cybersecurity-GRC.pdf`** est déjà généré et prêt à être utilisé pour vos candidatures. Téléchargez-le simplement et envoyez-le !
+
+### Option 1: Ouvrir le PDF
+1. Téléchargez le fichier `CV-Ibrahim-SY-Cybersecurity-GRC.pdf`
+2. Ouvrez-le avec votre lecteur PDF préféré (Adobe Reader, Preview, etc.)
+3. Prêt à être envoyé par email ou uploadé sur les plateformes de recrutement
+
+### Option 2: Ouvrir le HTML dans un navigateur
 1. Téléchargez le fichier `CV-Ibrahim-SY-Cybersecurity-GRC.html`
 2. Ouvrez-le avec votre navigateur web préféré (Chrome, Firefox, Edge, Safari)
 
-### Option 2: Générer un PDF
+### Option 3: Générer votre propre PDF depuis le HTML
 1. Ouvrez le fichier HTML dans votre navigateur
 2. Utilisez la fonction "Imprimer" (Ctrl+P ou Cmd+P)
 3. Sélectionnez "Enregistrer au format PDF" comme imprimante
 4. Ajustez les marges si nécessaire
 5. Enregistrez le PDF
 
-### Option 3: Visualiser en ligne via GitHub Pages
+### Option 4: Visualiser en ligne via GitHub Pages
 Le CV peut être consulté directement via GitHub Pages si cette fonctionnalité est activée pour le dépôt.
 
 ## Contenu du CV
@@ -44,10 +54,11 @@ Le CV comprend les sections suivantes :
 
 ## Caractéristiques
 
-- ✅ Design moderne et professionnel
+- ✅ **Format PDF professionnel prêt à l'emploi**
+- ✅ Design moderne et épuré
 - ✅ Aux couleurs d'Orange (orange/blanc)
 - ✅ Responsive (adapté aux mobiles et tablettes)
-- ✅ Optimisé pour l'impression en PDF
+- ✅ Optimisé pour l'impression
 - ✅ Facile à personnaliser
 - ✅ Orienté spécifiquement pour le poste de Consultant GRC chez Orange Cyberdefense
 
