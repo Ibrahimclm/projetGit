@@ -203,7 +203,7 @@ def get_cv_css():
     return """
 @page {
     size: A4;
-    margin: 1.5cm 2cm;
+    margin: 1.3cm 1.8cm;
 }
 
 * {
@@ -214,8 +214,8 @@ def get_cv_css():
 
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
-    font-size: 10pt;
-    line-height: 1.5;
+    font-size: 9.5pt;
+    line-height: 1.4;
     color: #2c3e50;
 }
 
@@ -226,61 +226,61 @@ body {
 /* Header Styles */
 header {
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 12px;
     border-bottom: 2px solid #1a3a52;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 header h1 {
-    font-size: 24pt;
+    font-size: 22pt;
     font-weight: 700;
     color: #1a3a52;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
     letter-spacing: 1px;
 }
 
 header .title {
-    font-size: 11pt;
+    font-size: 10.5pt;
     color: #34495e;
     font-weight: 500;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 header .contact {
-    font-size: 9pt;
+    font-size: 8.5pt;
     color: #5a6c7d;
-    line-height: 1.4;
+    line-height: 1.3;
 }
 
 header .contact p {
-    margin: 2px 0;
+    margin: 1px 0;
 }
 
 /* Section Styles */
 section {
-    margin-bottom: 18px;
+    margin-bottom: 14px;
     page-break-inside: avoid;
 }
 
 section h2 {
-    font-size: 13pt;
+    font-size: 12pt;
     font-weight: 700;
     color: #1a3a52;
     text-transform: uppercase;
     border-bottom: 1px solid #d0d8e0;
-    padding-bottom: 4px;
-    margin-bottom: 10px;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
     letter-spacing: 0.5px;
 }
 
 section p {
     text-align: justify;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 /* Experience Styles */
 .experience {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     page-break-inside: avoid;
 }
 
@@ -288,18 +288,18 @@ section p {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
 }
 
 .experience-header h3 {
-    font-size: 11pt;
+    font-size: 10.5pt;
     font-weight: 600;
     color: #2c3e50;
     flex: 1;
 }
 
 .experience-header .period {
-    font-size: 9pt;
+    font-size: 8.5pt;
     color: #5a6c7d;
     font-weight: 500;
     white-space: nowrap;
@@ -307,49 +307,49 @@ section p {
 }
 
 .company {
-    font-size: 10pt;
+    font-size: 9.5pt;
     color: #5a6c7d;
     font-style: italic;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
 }
 
 .experience-intro {
-    font-size: 9.5pt;
+    font-size: 9pt;
     color: #5a6c7d;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
 }
 
 .experience h4 {
-    font-size: 10pt;
+    font-size: 9.5pt;
     font-weight: 600;
     color: #34495e;
-    margin-top: 8px;
-    margin-bottom: 4px;
+    margin-top: 6px;
+    margin-bottom: 3px;
 }
 
 .experience ul {
-    margin-left: 18px;
-    margin-bottom: 6px;
+    margin-left: 16px;
+    margin-bottom: 5px;
 }
 
 .experience ul li {
-    font-size: 9.5pt;
-    margin-bottom: 2px;
-    line-height: 1.4;
+    font-size: 9pt;
+    margin-bottom: 1px;
+    line-height: 1.3;
 }
 
 .note {
-    font-size: 9pt;
+    font-size: 8.5pt;
     color: #5a6c7d;
     font-style: italic;
-    margin-top: 6px;
+    margin-top: 5px;
 }
 
 /* Skills Grid */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    gap: 10px;
 }
 
 .skill-category {
@@ -357,50 +357,50 @@ section p {
 }
 
 .skill-category h4 {
-    font-size: 10pt;
+    font-size: 9.5pt;
     font-weight: 600;
     color: #2c3e50;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
 }
 
 .skill-category ul {
-    margin-left: 18px;
+    margin-left: 16px;
 }
 
 .skill-category ul li {
-    font-size: 9.5pt;
-    margin-bottom: 2px;
-    line-height: 1.3;
+    font-size: 9pt;
+    margin-bottom: 1px;
+    line-height: 1.25;
 }
 
 /* Projects */
 .project {
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     page-break-inside: avoid;
 }
 
 .project h4 {
-    font-size: 10pt;
+    font-size: 9.5pt;
     font-weight: 600;
     color: #2c3e50;
     margin-bottom: 2px;
 }
 
 .project p {
-    font-size: 9.5pt;
+    font-size: 9pt;
     color: #5a6c7d;
     margin-bottom: 0;
 }
 
 /* General Lists */
 section > ul {
-    margin-left: 18px;
+    margin-left: 16px;
 }
 
 section > ul li {
-    font-size: 9.5pt;
-    margin-bottom: 3px;
-    line-height: 1.4;
+    font-size: 9pt;
+    margin-bottom: 2px;
+    line-height: 1.3;
 }
 
 section > ul li strong {
@@ -408,7 +408,7 @@ section > ul li strong {
 }
 
 .languages li {
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 /* Print optimization */
