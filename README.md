@@ -44,7 +44,7 @@ Le CV comprend les sections suivantes :
 ## Caractéristiques
 
 - ✅ Design moderne et professionnel
-- ✅ Couleurs aux couleurs d'Orange (orange/blanc)
+- ✅ Aux couleurs d'Orange (orange/blanc)
 - ✅ Responsive (adapté aux mobiles et tablettes)
 - ✅ Optimisé pour l'impression en PDF
 - ✅ Facile à personnaliser
