@@ -7,7 +7,7 @@ Ce projet génère un CV professionnel en format PDF pour un consultant en cyber
 - **Design sobre et moderne** : Adapté aux cabinets de conseil en cybersécurité
 - **Palette de couleurs professionnelle** : Dominante bleu foncé, gris et noir
 - **Structure claire** : Hiérarchie visuelle bien définie
-- **Format optimisé** : 1-2 pages maximum
+- **Format optimisé** : 2 pages (A4)
 - **Police professionnelle** : Helvetica/Arial pour une lecture optimale
 - **Prêt à l'emploi** : Format PDF directement envoyable aux recruteurs
 

@@ -427,22 +427,35 @@ def generate_cv_pdf(output_path="CV_Ibrahim_Sy.pdf"):
     
     Args:
         output_path: Path where the PDF will be saved
+        
+    Returns:
+        bool: True if PDF generation succeeded, False otherwise
     """
-    html_content = get_cv_html()
-    css_content = get_cv_css()
-    
-    # Create HTML object and render to PDF
-    html = HTML(string=html_content)
-    css = CSS(string=css_content)
-    
-    html.write_pdf(output_path, stylesheets=[css])
-    print(f"CV generated successfully: {output_path}")
-    
-    # Check file size
-    if os.path.exists(output_path):
-        size = os.path.getsize(output_path)
-        print(f"File size: {size / 1024:.2f} KB")
+    try:
+        html_content = get_cv_html()
+        css_content = get_cv_css()
+        
+        # Create HTML object and render to PDF
+        html = HTML(string=html_content)
+        css = CSS(string=css_content)
+        
+        html.write_pdf(output_path, stylesheets=[css])
+        print(f"CV generated successfully: {output_path}")
+        
+        # Check file size
+        if os.path.exists(output_path):
+            size = os.path.getsize(output_path)
+            print(f"File size: {size / 1024:.2f} KB")
+        
+        return True
+        
+    except Exception as e:
+        print(f"Error generating CV PDF: {e}")
+        print("Please ensure WeasyPrint and its dependencies are properly installed.")
+        return False
 
 
 if __name__ == "__main__":
-    generate_cv_pdf()
+    import sys
+    success = generate_cv_pdf()
+    sys.exit(0 if success else 1)
