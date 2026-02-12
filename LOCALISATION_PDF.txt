@@ -1,0 +1,31 @@
+=================================================================
+          OÙ EST LE PDF ? VOICI LA RÉPONSE !
+=================================================================
+
+Le fichier CV_Ibrahim_Sy.pdf est PRÉSENT dans ce repository.
+
+EMPLACEMENT EXACT :
+  📁 CV_Ibrahim_Sy.pdf (à la racine du repository)
+
+COMMENT LE VOIR SUR GITHUB :
+  1. Allez sur https://github.com/Ibrahimclm/projetGit
+  2. Vous verrez le fichier "CV_Ibrahim_Sy.pdf" dans la liste
+  3. Cliquez dessus pour le visualiser
+  4. Cliquez sur "Download" pour le télécharger
+
+TÉLÉCHARGEMENT DIRECT :
+  https://github.com/Ibrahimclm/projetGit/raw/copilot/create-professional-cv-pdf/CV_Ibrahim_Sy.pdf
+
+INFORMATIONS :
+  • Fichier : CV_Ibrahim_Sy.pdf
+  • Taille : 22 KB
+  • Format : PDF, 2 pages (A4)
+  • Statut : ✅ Prêt à envoyer
+
+DOCUMENTATION COMPLÈTE :
+  • README.md - Instructions principales
+  • TELECHARGEMENT.md - Guide de téléchargement détaillé
+
+=================================================================
+Le PDF est là, dans le repository ! Il n'est pas caché ! 🎯
+=================================================================
